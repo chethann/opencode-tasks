@@ -1,5 +1,5 @@
 {
-  "name": "opencode-workflow",
+  "name": "@chethann/opencode-workflow",
   "version": "1.0.0",
   "description": "Structured development workflow plugin for OpenCode — task, research, plan, execute, commit, review",
   "main": "index.ts",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/opencode-workflow"
+    "url": "https://github.com/chethann/opencode-tasks"
   },
   "files": [
     "index.ts",

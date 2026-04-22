@@ -4,7 +4,7 @@ set -euo pipefail
 # opencode-workflow install script
 # Copies plugin + commands into your project's .opencode/ directory
 
-REPO_URL="https://raw.githubusercontent.com/your-org/opencode-workflow/main"
+REPO_URL="https://raw.githubusercontent.com/chethann/opencode-tasks/main"
 
 COMMANDS=(
   "task.md"

@@ -22,7 +22,7 @@ OpenCode installs it automatically on startup.
 ### Option B: GitHub install script
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/your-org/opencode-workflow/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/chethann/opencode-tasks/main/install.sh | bash
 ```
 
 This copies the plugin and commands into your project's `.opencode/` directory.
