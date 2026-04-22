@@ -19,7 +19,28 @@ Add to your project's `opencode.json`:
 
 OpenCode installs it automatically on startup.
 
-### Option B: GitHub install script
+### Option B: Git clone + symlink (no npm required)
+
+Works behind corporate proxies or air-gapped environments — no package manager needed.
+
+```bash
+# Clone once, anywhere on your machine
+git clone https://github.com/chethann/opencode-tasks.git
+
+# From your project directory, run the setup script
+cd /path/to/your-project
+/path/to/opencode-tasks/setup.sh
+```
+
+Or pass the target project as an argument:
+
+```bash
+/path/to/opencode-tasks/setup.sh /path/to/your-project
+```
+
+This creates symlinks in `.opencode/` pointing to the cloned repo. Updates to the clone are picked up automatically (command changes instantly, plugin changes on OpenCode restart).
+
+### Option C: GitHub install script (downloads files)
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/chethann/opencode-tasks/main/install.sh | bash
