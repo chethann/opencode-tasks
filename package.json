@@ -1,0 +1,29 @@
+{
+  "name": "opencode-workflow",
+  "version": "1.0.0",
+  "description": "Structured development workflow plugin for OpenCode — task, research, plan, execute, commit, review",
+  "main": "index.ts",
+  "type": "module",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "workflow",
+    "agentic",
+    "development-workflow"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/opencode-workflow"
+  },
+  "files": [
+    "index.ts",
+    "dashboard.ts",
+    "commands/",
+    "agents/",
+    "install.sh"
+  ],
+  "dependencies": {
+    "@opencode-ai/plugin": "latest"
+  }
+}
