@@ -21,7 +21,8 @@
     "dashboard.ts",
     "commands/",
     "agents/",
-    "install.sh"
+    "install.sh",
+    "install-global.sh"
   ],
   "dependencies": {
     "@opencode-ai/plugin": "latest"
